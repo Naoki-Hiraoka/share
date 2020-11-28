@@ -1,0 +1,82 @@
+# release1.7 + https://github.com/start-jsk/rtmros_choreonoid/blob/master/choreonoid.patch
+- git:
+    local-name: choreonoid
+    uri: https://github.com/Naoki-Hiraoka/choreonoid
+    version: hrp2jsknts-move-base
+- git:
+    local-name: simtrans
+    uri: https://github.com/fkanehiro/simtrans
+    version: master
+# https://github.com/jsk-ros-pkg/euslib/pull/337
+- git:
+    local-name: euslisp/Euslisp
+    uri: https://github.com/Naoki-Hiraoka/Euslisp.git
+    version: fix-cart-model
+# https://github.com/euslisp/jskeus/pull/585
+- git:
+    local-name: euslisp/jskeus
+    uri: https://github.com/Naoki-Hiraoka/jskeus.git
+    version: fix-triangle
+- git:
+    local-name: jsk-ros-pkg/jsk_roseus
+    uri: https://github.com/jsk-ros-pkg/jsk_roseus.git
+    version: master
+# https://github.com/jsk-ros-pkg/jsk_model_tools/pull/231
+- git:
+    local-name: jsk-ros-pkg/jsk_model_tools
+    uri: https://github.com/Naoki-Hiraoka/jsk_model_tools.git
+    version: eusurdfwrl
+# https://github.com/jsk-ros-pkg/jsk_robot/pull/1290
+- git:
+    local-name: jsk-ros-pkg/jsk_robot
+    uri: https://github.com/Naoki-Hiraoka/jsk_robot.git
+    version: jsk-hrp2jsknts
+- git:
+    local-name: hrpsys
+    uri: https://github.com/Naoki-Hiraoka/hrpsys-base.git
+    version: fix-removejointgroup
+# https://github.com/jsk-ros-pkg/jsk_control/pull/756
+# https://github.com/jsk-ros-pkg/jsk_control/pull/758
+- git:
+    local-name: jsk-ros-pkg/jsk_control
+    uri: https://github.com/Naoki-Hiraoka/jsk_control
+    version: hrp2jsknts-move-base
+- git:
+    local-name: multisense
+    uri: https://github.com/Naoki-Hiraoka/multisense_ros.git
+    version: 3.4.9_fixed
+# https://github.com/start-jsk/rtmros_choreonoid/pull/326
+# https://github.com/start-jsk/rtmros_choreonoid/pull/328
+# https://github.com/start-jsk/rtmros_choreonoid/pull/330
+# https://github.com/start-jsk/rtmros_choreonoid/pull/337
+- git:
+    local-name: rtm-ros-robotics/rtmros_choreonoid
+    uri: https://github.com/Naoki-Hiraoka/rtmros_choreonoid
+    version: hrp2jsknts-move-base
+- git:
+    local-name: rtm-ros-robotics/rtmros_common
+    uri: https://github.com/start-jsk/rtmros_common.git
+    version: master
+# https://github.com/start-jsk/rtmros_gazebo/pull/256
+- git:
+    local-name: rtm-ros-robotics/rtmros_gazebo
+    uri: https://github.com/Naoki-Hiraoka/rtmros_gazebo.git
+    version: enable-multiple-iob
+# https://github.com/start-jsk/rtmros_tutorials/pull/577
+# https://github.com/start-jsk/rtmros_tutorials/pull/585
+# https://github.com/start-jsk/rtmros_tutorials/pull/583
+- git:
+    local-name: rtm-ros-robotics/rtmros_tutorials
+    uri: https://github.com/Naoki-Hiraoka/rtmros_tutorials
+    version: hrp2jsknts-move-base
+# https://github.com/start-jsk/rtmros_hrp2/pull/555
+# https://github.com/start-jsk/rtmros_hrp2/pull/558
+# https://github.com/start-jsk/rtmros_hrp2/pull/559
+# https://github.com/start-jsk/rtmros_hrp2/pull/560
+# https://github.com/start-jsk/rtmros_hrp2/pull/564
+# https://github.com/start-jsk/rtmros_hrp2/pull/565
+# https://github.com/start-jsk/rtmros_hrp2/pull/572
+- git:
+    local-name: rtm-ros-robotics/rtmros_hrp2
+    uri: https://github.com/Naoki-Hiraoka/rtmros_hrp2
+    version: hrp2jsknts-move-base

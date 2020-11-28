@@ -1,7 +1,7 @@
 # release1.7 + https://github.com/start-jsk/rtmros_choreonoid/blob/master/choreonoid.patch
 - git:
     local-name: choreonoid
-    uri: https://github.com/Naoki-Hiraoka/choreonoid
+    uri: https://github.com/Naoki-Hiraoka/choreonoid-1
     version: hrp2jsknts-move-base
 - git:
     local-name: simtrans
@@ -31,6 +31,7 @@
     local-name: jsk-ros-pkg/jsk_robot
     uri: https://github.com/Naoki-Hiraoka/jsk_robot.git
     version: jsk-hrp2jsknts
+# https://github.com/fkanehiro/hrpsys-base/pull/1297
 - git:
     local-name: hrpsys
     uri: https://github.com/Naoki-Hiraoka/hrpsys-base.git

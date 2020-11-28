@@ -21,6 +21,6 @@ bash ./INSTALL
 cd ..
 
 rosdep install -r --from-paths . --ignore-src -y
-
-catkin build roseus choreonoid jsk_hrp2_ros_bridge hrpsys_choreonoid_tutorials eusurdfwrl jsk_hrp2jsknts_startup
+source ~/.bashrc
+catkin build hrp2jsknts_move_base_share
 ```

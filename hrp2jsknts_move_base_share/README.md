@@ -21,6 +21,24 @@ bash ./INSTALL
 cd ..
 
 rosdep install -r --from-paths . --ignore-src -y
+
+## 順番が重要
+source ~/.bashrc
+catkin build choreonoid
+source ~/.bashrc
+catkin build hrpsys_choreonoid
+source ~/.bashrc
+catkin build jsk_hrp2_ros_bridge
+source ~/.bashrc
+catkin build hrpsys_choreonoid_tutorials
 source ~/.bashrc
 catkin build hrp2jsknts_move_base_share
 ```
+
+```
+rtmlaunch hrpsys_choreonoid_tutorials hrp2jsknts_choreonoid.launch PROJECT_FILE:=`rospack find hrp2jsknts_move_base_share`/HRP2JSKNTS_LOAD_OBJ.cnoid ENVIRONMENT_YAML:=`rospack find eusurdfwrl`/worlds/room73b2.yaml
+roslaunch jsk_hrp2jsknts_startup hrp2jsknts_2dnav.launch
+rosrun jsk_footstep_controller base-controller.l
+```
+
+rvizで2d nav goalをマウスで指定すると、その場所にロボットが歩く

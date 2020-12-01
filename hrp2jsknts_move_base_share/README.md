@@ -2,7 +2,7 @@
 mkdir catkin_ws/src -p
 cd src
 
-git clone https://github.com/Naoki-Hiraoka/share -b hrp2jsknts-move-base
+git clone https://github.com/Naoki-Hiraoka/share -b hrp2jsknts-move-base-auto-stabilizer
 
 wstool init .
 wstool merge share/hrp2jsknts_move_base_share/.rosinstall

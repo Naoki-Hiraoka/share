@@ -26,7 +26,7 @@ rosdep install -r --from-paths . --ignore-src -y
 source ~/.bashrc
 catkin build choreonoid
 source ~/.bashrc
-catkin build hrpsys_choreonoid
+catkin build hrpsys_choreonoid # openhrp3のコンパイルエラーになったが、catkin build openhrp3したら通った
 source ~/.bashrc
 catkin build jsk_hrp2_ros_bridge
 source ~/.bashrc

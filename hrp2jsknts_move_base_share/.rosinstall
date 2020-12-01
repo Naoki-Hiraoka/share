@@ -1,16 +1,16 @@
 - git:
     local-name: openhrp3
-    uri: git@github.com:fkanehiro/openhrp3.git
+    uri: https://github.com/fkanehiro/openhrp3.git
 # https://github.com/fkanehiro/hrpsys-base/pull/1297
 # + YutaKojio's commits
 - git:
     local-name: hrpsys
-    uri: git@github.com:YutaKojio/hrpsys-base.git
+    uri: https://github.com/YutaKojio/hrpsys-base.git
     version: foot-guided-walk-fullbody
 # YutaKojio's commits
 - git:
     local-name: rtmros_common
-    uri: git@github.com:YutaKojio/rtmros_common.git
+    uri: https://github.com/YutaKojio/rtmros_common.git
     version: auto-stabilizer
 # https://github.com/start-jsk/rtmros_tutorials/pull/577
 # https://github.com/start-jsk/rtmros_tutorials/pull/585
@@ -18,7 +18,7 @@
 # + YutaKojio's commits
 - git:
     local-name: rtmros_tutorials
-    uri: git@github.com:YutaKojio/rtmros_tutorials.git
+    uri: https://github.com/YutaKojio/rtmros_tutorials.git
     version: auto-stabilizer
 # https://github.com/start-jsk/rtmros_choreonoid/pull/326
 # https://github.com/start-jsk/rtmros_choreonoid/pull/328
@@ -27,7 +27,7 @@
 # + YutaKojio's commits
 - git:
     local-name: rtmros_choreonoid
-    uri: git@github.com:YutaKojio/rtmros_choreonoid.git
+    uri: https://github.com/YutaKojio/rtmros_choreonoid.git
     version: auto-stabilizer
 # https://github.com/start-jsk/rtmros_hrp2/pull/555
 # https://github.com/start-jsk/rtmros_hrp2/pull/558
@@ -39,28 +39,28 @@
 # + YutaKojio's commits
 - git:
     local-name: rtmros_hrp2
-    uri: git@github.com:YutaKojio/rtmros_hrp2.git
+    uri: https://github.com/YutaKojio/rtmros_hrp2.git
     version: todo-hiraoka-plus-shimpei
 # YutaKojio's commits
 - git:
     local-name: trans_system
-    uri: git@github.com:YutaKojio/trans_system.git
+    uri: https://github.com/YutaKojio/trans_system.git
     version: auto-stabilizer
 - git:
     local-name: multisense_ros
-    uri: git@github.com:Naoki-Hiraoka/multisense_ros
+    uri: https://github.com/Naoki-Hiraoka/multisense_ros
     version: 3.4.9_fixed
 # - git:
 #     local-name: log_plotter
-#     uri: git@github.com:kindsenior/log_plotter.git
+#     uri: https://github.com/kindsenior/log_plotter.git
 # for omori system
 # - git:
 #     local-name: jsk_control
-#     uri: git@github.com:YutaKojio/jsk_control.git
+#     uri: https://github.com/YutaKojio/jsk_control.git
 #     version: jaxonred_footstep_planning-kojio
 # - git:
 #     local-name: jsk-ros-pkg/jsk_recognition
-#     uri: git@github.com:YutaKojio/jsk_recognition.git
+#     uri: https://github.com/YutaKojio/jsk_recognition.git
 #     version: add_keep_organized_param-kojio
 # - git:
 #     local-name: safe_footstep_planner
@@ -71,7 +71,7 @@
 # https://github.com/jsk-ros-pkg/jsk_control/pull/758
 - git:
     local-name: jsk_control
-    uri: git@github.com:Naoki-Hiraoka/jsk_control.git
+    uri: https://github.com/Naoki-Hiraoka/jsk_control.git
     version: hrp2jsknts-move-base
 # release1.7 + https://github.com/start-jsk/rtmros_choreonoid/blob/master/choreonoid.patch
 - git:

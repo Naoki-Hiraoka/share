@@ -106,7 +106,7 @@
 - git:
     local-name: jsk-ros-pkg/jsk_robot
     uri: https://github.com/Naoki-Hiraoka/jsk_robot.git
-    version: jsk-hrp2jsknts
+    version: jsk-hrp2jsknts-auto-stabilizer
 # https://github.com/start-jsk/rtmros_gazebo/pull/256
 # - git:
 #     local-name: rtm-ros-robotics/rtmros_gazebo

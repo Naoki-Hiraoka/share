@@ -20,6 +20,8 @@ cd simtrans
 bash ./INSTALL
 cd ..
 
+## if real robot, comment out ``add_definitions(-DOPENHRP_PACKAGE_VERSION_320) ### cheat ##'' in CMakeLists.txt of hrpsys.
+
 rosdep install -r --from-paths . --ignore-src -y
 
 ## 順番が重要

@@ -1,6 +1,7 @@
-- git:
-    local-name: openhrp3
-    uri: https://github.com/fkanehiro/openhrp3.git
+# not necessary if not use fullbodyIK
+# - git:
+#     local-name: openhrp3
+#     uri: https://github.com/fkanehiro/openhrp3.git
 # https://github.com/fkanehiro/hrpsys-base/pull/1297
 # + YutaKojio's commits
 - git:

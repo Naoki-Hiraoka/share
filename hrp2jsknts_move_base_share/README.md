@@ -23,6 +23,8 @@ cd ..
 # setup for hrpsys
 comment out ``add_definitions(-DOPENHRP_PACKAGE_VERSION_320) ### cheat ##'' in CMakeLists.txt of hrpsys.
 
+# if real robot
+jsk_hrp2_ros_bridgeのhrp2-hiraoka-userをmergeする。
 
 rosdep install -r --from-paths . --ignore-src -y
 
@@ -30,7 +32,7 @@ rosdep install -r --from-paths . --ignore-src -y
 source ~/.bashrc
 catkin build choreonoid
 source ~/.bashrc
-catkin build hrpsys_choreonoid # openhrp3のコンパイルエラーになったが、catkin build openhrp3したら通った
+catkin build hrpsys_choreonoid
 source ~/.bashrc
 catkin build jsk_hrp2_ros_bridge
 source ~/.bashrc

@@ -46,6 +46,7 @@ rtmlaunch hrpsys_choreonoid_tutorials hrp2jsknts_choreonoid.launch PROJECT_FILE:
 roslaunch jsk_hrp2jsknts_startup hrp2jsknts_2dnav.launch
 rosrun jsk_footstep_controller head-controller.l
 rosrun jsk_footstep_controller base-controller.l
+rosnode kill pr2_teleop # if real robot
 ```
 
 rvizで2d nav goalをマウスで指定すると、その場所にロボットが歩く

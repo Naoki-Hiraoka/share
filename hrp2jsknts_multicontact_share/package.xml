@@ -56,7 +56,8 @@
   <depend>hrpsys_choreonoid_tutorials</depend>
   <depend>eusurdfwrl</depend>
   <depend>jsk_hrp2jsknts_startup</depend>
-
+  <depend>multicontact_controller</depend>
+  <depend>hrp2_multicontact_controller</depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>

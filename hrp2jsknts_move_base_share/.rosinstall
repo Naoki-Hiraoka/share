@@ -51,7 +51,6 @@
 # https://github.com/start-jsk/rtmros_choreonoid/pull/326
 # https://github.com/start-jsk/rtmros_choreonoid/pull/328
 # https://github.com/start-jsk/rtmros_choreonoid/pull/330
-# https://github.com/start-jsk/rtmros_choreonoid/pull/337
 # diffあり
 - git:
     local-name: rtm-ros-robotics/rtmros_choreonoid
@@ -84,6 +83,7 @@
 # https://github.com/start-jsk/rtmros_hrp2/pull/565
 # https://github.com/start-jsk/rtmros_hrp2/pull/572
 # https://github.com/start-jsk/rtmros_hrp2/pull/574
+# diffあり
 - git:
     local-name: rtm-ros-robotics/rtmros_hrp2
     uri: https://github.com/Naoki-Hiraoka/rtmros_hrp2

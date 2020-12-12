@@ -36,7 +36,7 @@ catkin build hrp2jsknts_move_base_share
 ```
 
 ```
-rtmlaunch hrpsys_choreonoid_tutorials hrp2jsknts_choreonoid.launch PROJECT_FILE:=`rospack find hrp2jsknts_move_base_share`/HRP2JSKNTS_LOAD_OBJ.cnoid ENVIRONMENT_YAML:=`rospack find eusurdfwrl`/worlds/room73b2.yaml
+rtmlaunch hrpsys_choreonoid_tutorials hrp2jsknts_choreonoid.launch PROJECT_FILE:=`rospack find hrp2jsknts_move_base_share`/HRP2JSKNTS_LOAD_OBJ.cnoid ENVIRONMENT_YAML:=`rospack find eusurdfwrl`/worlds/room73b2.yaml LAUNCH_FOOTCOORDS:=false
 roslaunch jsk_hrp2jsknts_startup hrp2jsknts_2dnav.launch
 rosrun jsk_footstep_controller head-controller.l
 rosrun jsk_footstep_controller base-controller.l

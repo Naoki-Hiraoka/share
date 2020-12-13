@@ -17,10 +17,11 @@
     local-name: euslisp/jskeus
     uri: https://github.com/Naoki-Hiraoka/jskeus.git
     version: fix-triangle
+# diffあり
 - git:
     local-name: jsk-ros-pkg/jsk_roseus
-    uri: https://github.com/jsk-ros-pkg/jsk_roseus.git
-    version: master
+    uri: https://github.com/Naoki-Hiraoka/jsk_roseus.git
+    version: fix-state-machine
 # https://github.com/jsk-ros-pkg/jsk_model_tools/pull/231
 - git:
     local-name: jsk-ros-pkg/jsk_model_tools

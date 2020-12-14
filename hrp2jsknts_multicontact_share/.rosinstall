@@ -100,8 +100,8 @@
     local-name: jsk-ros-pkg/euslib
     uri: https://github.com/Naoki-Hiraoka/euslib
     version: hiraoka
-# https://github.com/jsk-ros-pkg/jsk_visualization/pull/792
+# https://github.com/jsk-ros-pkg/jsk_visualization/pull/794
 - git:
     local-name: jsk-ros-pkg/jsk_visualization
-    uri: https://github.com/jsk-ros-pkg/jsk_visualization
-    version: master
+    uri: https://github.com/Naoki-hiraoka/jsk_visualization
+    version: fix-button

@@ -1,4 +1,5 @@
 # release1.7 + https://github.com/start-jsk/rtmros_choreonoid/blob/master/choreonoid.patch
+# https://github.com/choreonoid/choreonoid/pull/12
 - git:
     local-name: choreonoid
     uri: https://github.com/Naoki-Hiraoka/choreonoid-1

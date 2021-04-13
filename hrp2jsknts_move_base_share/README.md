@@ -23,15 +23,10 @@ cd ..
 rosdep install -r --from-paths . --ignore-src -y
 
 ## 順番が重要
-source ~/.bashrc
 catkin build choreonoid
-source ~/.bashrc
 catkin build hrpsys_choreonoid
-source ~/.bashrc
 catkin build jsk_hrp2_ros_bridge
-source ~/.bashrc
 catkin build hrpsys_choreonoid_tutorials
-source ~/.bashrc
 catkin build hrp2jsknts_move_base_share
 ```
 

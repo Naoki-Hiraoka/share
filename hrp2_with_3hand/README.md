@@ -14,6 +14,7 @@ bash /tmp/setup_upstream.sh -w .. -p jsk-ros-pkg/geneus
 
 ## setup for choreonoid
 ./choreonoid/misc/script/install-requisites-ubuntu-18.04.sh
+patch -p1 -d choreonoid < rtm-ros-robotics/rtmros_choreonoid/choreonoid.patch
 
 rosdep install -r --from-paths . --ignore-src -y
 

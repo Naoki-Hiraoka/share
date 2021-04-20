@@ -28,9 +28,9 @@
     local-name: multisense
     uri: https://github.com/Naoki-Hiraoka/multisense_ros.git
     version: 3.4.9_fixed
-- git:
-    local-name: openhrp3
-    uri: https://github.com/fkanehiro/openhrp3.git
+# - git:
+#     local-name: openhrp3
+#     uri: https://github.com/fkanehiro/openhrp3.git
 - git:
     local-name: rtm-ros-robotics/rtmros_choreonoid
     uri: https://github.com/Naoki-Hiraoka/rtmros_choreonoid

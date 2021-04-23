@@ -47,3 +47,7 @@
     local-name: rtm-ros-robotics/rtmros_tutorials
     uri: https://github.com/Naoki-Hiraoka/rtmros_tutorials.git
     version: hrp2_with_3hand
+- git:
+    local-name: jsk-ros-pkg/trans_system
+    uri: https://github.com/Naoki-Hiraoka/trans_system.git
+    version: iob-shm

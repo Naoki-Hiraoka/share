@@ -34,7 +34,7 @@
 - git:
     local-name: rtm-ros-robotics/rtmros_choreonoid
     uri: https://github.com/Naoki-Hiraoka/rtmros_choreonoid
-    version: hrp2_with_3hand
+    version: hrp2-choreonoid
 - git:
     local-name: rtm-ros-robotics/rtmros_common
     uri: https://github.com/Naoki-Hiraoka/rtmros_common.git

@@ -23,4 +23,11 @@ catkin build choreonoid
 catkin build hrpsys_choreonoid
 catkin build jsk_hrp2_ros_bridge
 catkin build hrpsys_choreonoid_tutorials
+
+rtmlaunch hrpsys_choreonoid_tutorials hrp2jsknts_choreonoid.launch
+
+roseus `rospack find hrpsys_ros_bridge_tutorials`/euslisp/hrp2jsknts-interface.l
+(hrp2jsknts-init)
+(send *robot* :hand :rarm :grasp-pose)
+(send *ri* :hand-angle-vector (send *robot* :hand-angle-vector) 5000)
 ```
